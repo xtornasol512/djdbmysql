@@ -1,0 +1,7 @@
+
+CREATE PROCEDURE pa_actores_cantidad()
+
+SELECT
+  COUNT(*)
+FROM
+  actor;
